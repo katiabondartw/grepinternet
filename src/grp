@@ -1,0 +1,3 @@
+#!/bin/sh
+find ../data/wet -type  f | xargs gunzip -c | grep -o -f ../patterns/patternEng | wc -l 
+

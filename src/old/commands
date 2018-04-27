@@ -1,0 +1,2 @@
+grep -o -f pattern geektimes | wc -l
+wget -P 1gb https://commoncrawl.s3.amazonaws.com/crawl-data/CC-MAIN-2014-35/segments/1409535925433.20/wet/CC-MAIN-20140901014525-00473-ip-10-180-136-8.ec2.internal.warc.wet.gz
