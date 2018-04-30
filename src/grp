@@ -1,3 +1,6 @@
 #!/bin/sh
+echo "job started"
+./s3dnld
 find ../data/wet -type  f -regex ".*\.\(gz\)" | xargs gunzip -c | grep -o -f ../patterns/pattern | wc -l > ../res 
-
+date
+echo "job finished"
