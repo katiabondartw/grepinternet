@@ -1,8 +1,6 @@
 #sudo yum update -y
 sudo yum install -y git
-lsblk
-sudo mkdir /home/ec2-user/grepinternet/wet
-sudo mount /dev/xvda1 /home/ec2-user/grepinternet/wet
+git clone https://github.com/katiabondartw/grepinternet.git
 
 cd grepinternet/src/
 ./grp
