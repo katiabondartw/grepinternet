@@ -1,5 +1,5 @@
 #!/bin/sh
-PATHS_FILE="../data/wet.paths2"
+PATHS_FILE="../split/wet$1"
 date
 COUNTER=1
 MACHINE=$1
